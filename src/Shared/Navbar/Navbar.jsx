@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import mainLogo from "../../assets/adaptive-icon.png";
 import SelectSearch from "react-select-search";
 import "react-select-search/style.css";
@@ -27,16 +27,17 @@ const Navbar = () => {
   return (
     <div className="navbar bg-base-200 flex justify-between">
       <div className="navbar-start">
-        <a className="btn btn-ghost text-xl">
-          <img src={mainLogo} className="md:w-28 w-12" alt="" />
-        </a>
+        <Link to={"/"}>
+          {" "}
+          <a className="btn btn-ghost text-xl">
+            <img src={mainLogo} className="md:w-32 w-12" alt="" />
+          </a>
+        </Link>
       </div>
 
       <div className="navbar-end ">
         <div>
           <div className=" rounded-lg    px-1  transition-all duration-200 ">
-            <FaSearch className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" />
-
             <SelectSearch
               options={data}
               search

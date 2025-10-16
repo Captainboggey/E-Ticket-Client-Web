@@ -9,7 +9,7 @@ const Faq = () => {
       </p>
       <div className="flex md:flex-row flex-col justify-center  my-10 gap-2 mx-10">
         <div>
-          <div className="collapse collapse-arrow bg-base-200">
+          <div className="collapse collapse-arrow ">
             <input type="radio" name="my-accordion-2" defaultChecked />
             <div className="collapse-title text-xl font-medium">
               <p> ১। কিভাবে টিকিট কিনতে পারবো?</p>
@@ -23,7 +23,7 @@ const Faq = () => {
               </p>
             </div>
           </div>
-          <div className="collapse collapse-arrow bg-base-200">
+          <div className="collapse collapse-arrow ">
             <input type="radio" name="my-accordion-2" />
             <div className="collapse-title text-xl font-medium">
               <p> ২। টিকিট বাতিল বা ফেরতের নিয়ম কী?</p>
@@ -32,7 +32,7 @@ const Faq = () => {
               <p>টিকিট বাতিলবা ফেরতপ্রদানের সুযোগনেই ।</p>
             </div>
           </div>
-          <div className="collapse collapse-arrow bg-base-200">
+          <div className="collapse collapse-arrow ">
             <input type="radio" name="my-accordion-2" />
             <div className="collapse-title text-xl font-medium">
               <p>৩। আমি কি অনলাইনে টিকিট পরিবর্তন করতে পারবো?</p>
@@ -41,7 +41,7 @@ const Faq = () => {
               <p>টিকিট পরিবর্তনএর সুযোগনেই ।</p>
             </div>
           </div>
-          <div className="collapse collapse-arrow bg-base-200">
+          <div className="collapse collapse-arrow ">
             <input type="radio" name="my-accordion-2" />
             <div className="collapse-title text-xl font-medium">
               <p>৪। পেমেন্ট অপশনগুলো কী কী?</p>
@@ -53,7 +53,7 @@ const Faq = () => {
               </p>
             </div>
           </div>
-          <div className="collapse collapse-arrow bg-base-200">
+          <div className="collapse collapse-arrow ">
             <input type="radio" name="my-accordion-2" />
             <div className="collapse-title text-xl font-medium">
               <p>৫। আমি কি অন্য কারো টিকেটে ভ্রমণ করতে পারবো?</p>
