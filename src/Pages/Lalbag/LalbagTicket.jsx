@@ -143,7 +143,7 @@ export default function LalbagTicket() {
       <label>দর্শন তারিখ ও সময়:</label>
       <input
         style={styles.input}
-        type="datetime-local"
+        type="date"
         name="date"
         value={date}
         onChange={(e) => setDate(e.target.value)}
